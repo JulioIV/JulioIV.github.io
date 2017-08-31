@@ -9,7 +9,7 @@
 	
 body {
 	width: 1400px;
-	margin-left: 400px;
+	margin-left: 450px;
 	margin-right: -100px;
         font-family: 'Copse', serif;
 	font-size: 30px;
@@ -38,30 +38,6 @@ body {
 		footer {
 		  color: white;
 	}
-	function fade #birds1 {
-    var op = 1;  // initial opacity
-    var timer = setInterval(function () {
-        if (op <= 0.1){
-            clearInterval(timer);
-            element.style.display = 'none';
-        }
-        element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op -= op * 0.1;
-    }, 50);
-}
-	function unfade #birds1 {
-    var op = 0.1;  // initial opacity
-    element.style.display = 'block';
-    var timer = setInterval(function () {
-        if (op >= 1){
-            clearInterval(timer);
-        }
-        element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op += op * 0.1;
-    }, 10);
-}
 	
  </style>
 
@@ -69,13 +45,14 @@ body {
 <header> 
  <center> <a> <img title= "J4"  src= "J4 logo.png" height="200px" widht="100px" > 
 	 <p> <img title= "Hi"  src= "Me2.png" height="200px" widht="200px" >
-		 <br> Julio Santiago, IV </a> </center> <br>
-		</a> </center>
+		 <br> Julio Santiago, IV </a>
+	 </center>
 <p>
+	<p>
 	<center> <h5> ☟ Designer, Poet, and everything inbetween. ☟ </h5> </center>
-	<center>
+	
 		</header>
-	<hr>
+
 	<p>
 		
 		<center><nav> 
