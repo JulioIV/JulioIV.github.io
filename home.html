@@ -8,21 +8,20 @@
 <style>
 	
 body {
+	background-color:
 	margin-left: 450px;
 	margin-right: -100px;
         font-family: 'Copse', serif;
 	font-size: 30px;
+background-color: #797979;
+	}
 	
- } 
-	header{
-		background-image: url("main.svg");
-		background-repeat: cover;
-		  color: black;
-		font-family: 'Righteous', cursive;
-		font-size: 40px;
+	svg{
+		width:850px;
+		height:600px;
 		
-}
-	h5 {
+	}
+	h3 {
 		  color: black;
 	}
 	nav {
@@ -38,31 +37,113 @@ body {
 		  color: white;
 	}
 	
- </style>
+	.st01 {
+	fill: none;
+	stroke: #000000;
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+	stroke-dasharray: 200;
+}
+.st02 {
+	fill: none;
+	stroke: #000000;
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+	stroke-dasharray: 50;
 
-
-<header> 
- <center> <a> <img title= "J4"  src= "J4 logo.png" height="200px" widht="100px" > 
-	 <p> <img title= "Hi"  src= "Me2.png" height="200px" widht="200px" >
-		 <br> Julio Santiago, IV </a>
-	 </center>
-<p>
-	<p>
-	<center> <h5> ☟ Designer, Poet, and everything inbetween. ☟ </h5> </center>
+}
 	
-		</header>
+	polygon{
+		stroke: #000000;
+	stroke-width: 1;
+		
+		
+	}
+	
+	#tri3 {
+	fill: #812BAF;
+	stroke: #000000;
+	stroke-width: 2;
+	}
+	
+		
+	.st01 {
+        stroke-dashoffset: 970;
+  stroke-dasharray: 970;
+  animation: write1 2s forwards linear;
+}
+	
+	@keyframes write1 {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
 
-	<p>
-	<body>	
-		<center><nav> 
+	
+	.st02 {
+		stroke-dashoffset: 335;
+  stroke-dasharray: 335;
+  animation: write2 2s forwards linear;
+		animation-delay: 2s;
+}
+	
+	@keyframes write2 {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+	
+	.opacityPulse-css {
+    animation: opacityPulse 2s ease-out;
+    animation-iteration-count: infinite; 
+    opacity: 1;
+}
+	@keyframes opacityPulse {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+	
+.tri2 {
+        animation: opacityPulse 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 0; 
+    }
+	
+</style>
+</head>
+
+<header> <center><nav> 
 		<a> ☢ Home </a>|
 		<a href= "http://julio4.me/about-me" title="About" target="_blank">  ☢ About </a>|
 		<a href= "http://julio4.me/portfolio" title="Work" target="_blank"> ☢ Portfolio </a>|
 		<a href= "http://julio4.me/services" title="Services" target="_blank"> ☢ Services </a>|
 		<a href= "http://julio4.me/contact-me.html" title= "Link" target="_blank"> ☢ Link-Up! </a>
-		 </nav></center>
+		 </nav></center> 
+		</header>
 
-	 <p>
+	<p>
+	<body>	
+		<center> <a> <img title= "J4"  src= "J4 logo.png" height="200px" widht="100px" > 
+	 <p> <img title= "Hi"  src= "Me2.png" height="200px" widht="200px" >
+<svg version="1.1" id="sig" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 720 720" style="enable-background:new 0 0 720 720;" xml:space="preserve">
+  <path id="path1" class="st01" d="M179.5,368.2L167,341.7l-13-39.5v-7.5c0,0,1-5,4.5-4.5s10.5,3,10.5,3l5,2.5l5.5,7c0,0,8.5,16.5,4,37
+	s-8.5,46-8.5,46s-10.5,40-28.5,44s55.5-91.5,55.5-91.5s-14,30.5-8.5,36.5s31-34.2,31-34.2S200,372,213.2,373.2s53-69.8,52.2-76.5
+	s-45.8,66-36.5,74s38.2-32.2,38.2-32.2S240.8,370,256,370.2c0,0,7.8-3,11.2-12s21.5-31.8,29-19.5s-15,32-15,32s-15.2,4.2-10.8-7.2
+	s6.8-22.8,29.2-24c0,0-23.8,22.2-11.2,20.5s23.5-10.8,23.5-10.8"/>
+  <path id="path2" class="st02" d="M378.7,351.9c0,0,40.7-28,26.3-51.7c-14.3-23.7-10,1.7-10,1.7l21.7,46.3c0,0,6,27-14.3,26
+	c-20.3-1-42.3-38-42.3-38s1.7-3.3,12.3,2.3c10.7,5.7,56.7,8.3,56.7,8.3s31,0.3,24-6.3"/>
+  <polygon id="tri1" class="tri" points="316.5,280.9 355.5,280.9 336,310.2 "/>
+  <polygon id="tri2" class="tri" points="316.5,270.2 355.5,270.2 336,299.5 "/>
+  <polygon id="tri3" class="tri2" points="324.5,281.3 347.7,281.3 336,298.8 "/>
+  <ellipse id="dot2" transform="matrix(0.7973 -0.6036 0.6036 0.7973 -145.0548 232.0842)" class="st02" cx="273" cy="332" rx="1.7" ry="1.7"/>
+  <ellipse id="dot1" transform="matrix(0.7973 -0.6036 0.6036 0.7973 -133.5665 347.5613)" class="st02" cx="450.7" cy="372.6" rx="1.7" ry="1.7"/>
+</svg> 
+<p>
+	<p>
+	<center> <h3> ☟ Designer, Poet, and everything inbetween. ☟ </h3> </center>
+	
 		<p> 
  <center><footer>
 <a href= "https://twitter.com/souladrift" target="_blank"> <img src= "twitter.svg" width="40" title= "Tweet Me!"> </a>
@@ -70,7 +151,7 @@ body {
   <a href= "https://www.facebook.com/people/Julio-Santiago-Jr/100002296612775" target="_blank">
 	  <img src= "Facebook.svg" width="40" title= "The Book of Faces" ></a>
 								   <p>
-	 <h5>  J4 © </h5></footer> </center>
+	 <h5>  J4 © </h3></footer> </center>
 								
 </body>
 	
