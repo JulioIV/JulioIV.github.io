@@ -7,19 +7,7 @@
 <title>Enter J4</title>
 
 <style>
-	
-	a {
-    color: #000000;
-    text-decoration: none;
-}
 
-a:hover 
-{
-     color: white; 
-     text-decoration:none; 
-     cursor:pointer;  
-}
-	
 	body{
 		background-color: #797979;
 	}
@@ -28,6 +16,48 @@ a:hover
 		width:850px;
 		height:600px;
 	}
+	
+	h4{
+		color: white;
+	font-family: BOXING;
+  margin:100px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 0 #7D3BB6;
+  animation: pulse 2s infinite;
+}
+h4:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #7D3BB6;
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px #7D3BB6;
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 #7D3BB6;
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #7D3BB6;
+    box-shadow: 0 0 0 0 #7D3BB6;
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px #7D3BB6;
+      box-shadow: 0 0 0 10px #7D3BB6;
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 #7D3BB6;
+      box-shadow: 0 0 0 0 #7D3BB6;
+  }
+}
 
 	.st2 {
         animation: opacityPulse 1s ease-out;
@@ -79,7 +109,7 @@ a:hover
 <polygon id="tri3" class="st2" points="222.7,83.5 476.8,83.5 349.5,350.5 "/>
 </svg>
 	
-	<h1> <a href= "https://julio4.me/home.html" target="_blank"  > Welcome! </a></h1>
+	<h4> <a href= "https://julio4.me/home.html" target="_blank"  > Welcome! </a></h4>
 	<center> 
 </body>
 <html>
